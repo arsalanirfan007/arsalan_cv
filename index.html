@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            padding: 10px 16px;
+            background: black;
+            color: #f1f1f1;
+            height: 90px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .content {
+            padding: 16px;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky+.content {
+            padding-top: 102px;
+        }
+
+        /* /* .nav {
+            height: 100px;
+            background-color: black;
+            color: aliceblue;
+            /* padding: 5px 50px 25px 50px; */
+        /* margin: 15px 50px 0px 50px; */
+        /* } */
+
+       
+         .left {
+            /* background-color: aqua; */
+            background-color: hsla(50, 33%, 25%, .75);
+            display: inline-block;
+            width: 30%;
+            height: 220vh;
+            float: left;
+        }
+
+        .right {
+            /* background-color: rgb(24, 180, 94); */
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            width: 70%;
+            height: 220vh;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 15px 50px 5px 100px;
+            border-radius: 20px 10px 20px 10px;
+            /* box-shadow: 12px 12px 2px 1px rgba(153, 153, 156, 0.2); */
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        }
+
+        .info {
+            padding: 20px 50px;
+            margin: 10px 10px 0px 10px;
+            background-color: white;
+            line-height: 22px;
+        }
+
+        .Language {
+            padding: 20px 50px;
+            margin: 10px 10px 0px 10px;
+            background-color: white;
+            line-height: 22px;
+        }
+
+        hr {
+            border-top: 3px solid rgb(14, 13, 13);
+            margin-top: 5px;
+        }
+
+        .summary {
+            padding: 20px 20px 10px 50px;
+            width: 700px;
+            height: 150px;
+            align-self: center;
+            margin: 170px 28px 10px 115px;
+            /* background-color: rgb(79, 110, 6); */
+            background-color: #92a8d1;
+            line-height: 22px;
+        }
+
+        .skill {
+            padding: 20px 20px 10px 50px;
+            width: 700px;
+            height: 150px;
+            align-self: center;
+            margin: 10px 28px 10px 115px;
+            /* background-color: rgb(79, 110, 6); */
+            background-color: #92a8d1;
+            line-height: 22px;
+
+        }
+
+        .list1 {
+            display: inline-block;
+            /* background-color: red; */
+            width: 200px;
+            padding-left: 30px;
+            margin-top: 10px;
+        }
+
+        .list2 {
+            display: inline-block;
+            /* background-color: red; */
+            width: 200px;
+            padding-left: 30px;
+            margin-left: 100px;
+        }
+
+        .Experince {
+            padding: 20px 20px 10px 50px;
+            width: 700px;
+            height: 220px;
+            align-self: center;
+            margin: 10px 28px 10px 115px;
+            /* background-color: rgb(79, 110, 6); */
+            background-color: #92a8d1;
+            line-height: 22px;
+        }
+
+        .Education {
+            padding: 20px 20px 10px 50px;
+            width: 700px;
+            height: 220px;
+            align-self: center;
+            margin: 30px 28px 10px 115px;
+            /* background-color: rgb(79, 110, 6); */
+            background-color: #92a8d1;
+            line-height: 22px;
+        }
+
+        .Certification {
+            padding: 20px 20px 10px 50px;
+            width: 700px;
+            height: 220px;
+            align-self: center;
+            margin: 30px 28px 10px 115px;
+            /* background-color: rgb(79, 110, 6); */
+            background-color: #92a8d1;
+            line-height: 25px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <h1 id="name">ARSALAN IRFAN</h1>
+    </div>
+    <div class="left">
+        <div class="img">
+            <img src="arsalanW.png" alt="">
+        </div>
+        <div class="info">
+            <h2>Information</h2>
+            <hr>
+            <p><b>House No:</b> L-40 Pak Mehran Malir Extension Colony Karachi, Pakistan. Karachi, Sindh.</p>
+            <p><b>Birth Date:</b> 08/31/1999</p>
+            <p><b>Gender:</b> Male</p>
+            <p><b>Marital Status:</b> Single</p>
+            <p><b>Nationality:</b> Pakistani</p>
+        </div>
+
+        <div class="info">
+            <h2>Contact</h2>
+            <hr>
+            <p><b>Phone:</b><br> +92-313-2748190 <br> +92-343-3338820</p>
+            <br>
+            <p><b>Email:</b><br>arslanirfan007@gmail.com</p>
+        </div>
+
+        <div class="Language">
+            <h2>Language</h2>
+            <hr>
+            <p><b>English</b></p>
+        
+            <p><b>Urdu</b></p>
+        </div>
+
+    </div>
+    <div class="right">
+        <div class="summary">
+            <h1>Summary</h1>
+            <hr>
+            <p>Web Developer specializing in front end development. Well-versed in numerous programming languages
+                including HTML5, CSS, JavaScript, Python. Strong background in project management and customer
+                relations.</p>
+
+        </div>
+
+        <div class="skill">
+            <h1>Skill Highlights</h1>
+            <hr>
+            <!-- <p>Web Developer specializing in front end development. Well-versed in numerous programming languages including HTML5, CSS, JavaScript, Python. Strong background in project management and customer relations.</p> -->
+            <div class="list1">
+                <ul>
+                    <li>Project management</li>
+                    <li>Strong decision maker</li>
+                    <li>Complex problem solver</li>
+                </ul>
+            </div>
+
+            <div class="list2">
+                <ul>
+                    <li>Project management</li>
+                    <li>Strong decision maker</li>
+                    <li>Complex problem solver</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Experince">
+            <h1>Experience</h1>
+            <hr>
+            <p><b>Secondary Computer Science/IT Teacher</b> - 01/2018 to Present
+                The Muhammad Academy, Karachi</p>
+            <ul>
+                <li>Expertise in to teach IX, X <b>(Computer Science)</b></li>
+                <li>To teach students different programming languages HTML5, CSS, C++, Scratch, Adobe soft wares (PS,
+                    Dream viewer), Office Automation software.</li> <br>
+                <p>IT Instructor - 09/2017 to 03/2018 <br>
+                    Global Computer Institute, Karachi</p>
+                <ul>
+                    <li>To teach students web development (HTML5, CSS).</li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="Education">
+            <h1>Education</h1>
+            <hr>
+            <p> <b> Bachelor of Science:</b> Computer Science (In Process) <br>
+                Sindh Madressatul Islam University, Karachi <br>
+                Currently in 6th semester, <b> CGPA 3.0</b></p>
+            <br>
+
+            <p> <b> Intermediate: </b> Pre-Engineering – 2017 <br>
+                Govt. Superior Science College shah faisal colony, Karachi</p>
+            <br>
+            <p>
+                <b> Matriculation:</b> Science – 2014 <br>
+                Al-Mobeen Secondary School, Karachi
+            </p>
+        </div>
+
+        <div class="Certification">
+            <h1>Certification</h1>
+            <hr>
+            <p> Web & App Development From SIMT Institute (In Process) <br>
+                Python Programming From CISCO Academy – March-2022 <br>
+                Diploma in Information technology with multimedia – May-2018 <br>
+                Certificate in Information Technology – June-2017
+            </p>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
